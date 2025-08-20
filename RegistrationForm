@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Diksha Aarambh – Registration Form</title>
+</head>
+<body>
+  <h1>Diksha Aarambh – Registration Form</h1>
+  <form action="#" method="post">
+  <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" placeholder="Your name" required />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required />
+      <br /><br />
+      <label for="phone">Mobile Number:</label>
+      <input type="tel" id="phone" name="phone" placeholder="10-digit number" required />
+      <br /><br />
+      <span>Gender:</span>
+      <label><input type="radio" name="gender" value="Female" /> Female</label>
+      <label><input type="radio" name="gender" value="Male" /> Male</label>
+      <label><input type="radio" name="gender" value="Other" /> Other</label>
+     <br /><br />
+     <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" />
+        <br />
+      <legend>Academic Details</legend>
+      <label for="college">College/Institute:</label>
+      <input type="text" id="college" name="college" placeholder="Your college name" required />
+      <br /><br />
+      <label for="department">Department/Branch:</label>
+      <input type="text" id="department" name="department" placeholder="e.g., CSE, ECE, ME" required />
+      <br /><br />
+      <label for="year">Year of Study:</label>
+      <select id="year" name="year" required>
+        <option value="">-- Select Year --</option>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+        <option>3rd Year</option>
+        <option>4th Year</option>
+        <option>Other</option>
+      </select>
+      <br /><br />
+      <label for="roll">Roll No./Student ID:</label>
+      <input type="text" id="roll" name="roll" placeholder="Your roll number" />
+    <br />
+      <label for="eventTrack">Track/Category (optional):</label>
+      <select id="eventTrack" name="eventTrack">
+        <option value="">-- Select --</option>
+        <option>Orientation</option>
+        <option>Workshops</option>
+        <option>Cultural Activities</option>
+        <option>Sports & Games</option>
+      </select>
+      <br /><br />
+      <label><input type="checkbox" name="hobbies" value="Reading" /> Reading</label>
+      <label><input type="checkbox" name="hobbies" value="Music" /> Music</label>
+      <label><input type="checkbox" name="hobbies" value="Dance" /> Dance</label>
+      <label><input type="checkbox" name="hobbies" value="Coding" /> Coding</label>
+      <label><input type="checkbox" name="hobbies" value="Sports" /> Sports</label>
+      <label><input type="checkbox" name="hobbies" value="Art" /> Art</label>
+      <br /><br />
+      <label for="otherHobby">Other hobby:</label>
+      <input type="text" id="otherHobby" name="otherHobby" placeholder="Write your hobby" />
+        <br />
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="3" cols="40" placeholder="House/Street/Area"></textarea>
+      <br /><br />
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" />
+      <br /><br />
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" />
+      <br /><br />
+      <label for="pincode">PIN Code:</label>
+      <input type="text" id="pincode" name="pincode" />
+      <br />
+    <label for="whyJoin">Why do you want to join Diksha Aarambh? (optional)</label>
+      <br />
+      <textarea id="whyJoin" name="whyJoin" rows="4" cols="60" placeholder="Write a few lines..."></textarea>
+      <br />
+    <button type="submit">Submit Registration</button>
+    <button type="reset">Clear Form</button>
+  </form>
+</body>
+</html>
