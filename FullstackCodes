@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Karnani - Resume</title>
+    <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header, section {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <img src="WhatsApp Image 2025-08-12 at 13.13.56_edc645b5.jpg" alt="Sakshi Karnani" style="width:150px;height:auto;">
+    <header>
+        <h1>Sakshi Karnani</h1>
+        <p>Email: sakshixkarnani@gmail.com | Phone: 8299516980 | LinkedIn: linkedin.com/in/yourprofile</p>
+    </header>
+
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>A concise overview of your professional skills and experience, tailored to the target role.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div>
+            <h3>Job Title - Company Name</h3>
+            <p><em>Start Date – End Date</em></p>
+            <ul>
+                <li>Key responsibility and achievement 1.</li>
+                <li>Key responsibility and achievement 2.</li>
+                <li>Key responsibility and achievement 3.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Another Job Title - Another Company</h3>
+            <p><em>Start Date – End Date</em></p>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div>
+            <h3>GLA University</h3>
+            <p><em>2027</em></p>
+            <p>Relevant coursework or honors (optional).</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Technical Skills:</strong> List your technical skills (e.g., Programming Languages, Software, Tools)</li>
+            <li><strong>Soft Skills:</strong> List your soft skills (e.g., Communication, Teamwork, Problem-solving)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects (Optional)</h2>
+        <div>
+            <h3>Project Name</h3>
+            <p><em>Description of the project and your role/contributions.</em></p>
+            <ul>
+                <li>Key achievement or technology used.</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
