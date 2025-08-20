@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <h2>My Portfolio</h2>
+  <a href="#about">About</a> | 
+  <a href="#skills">Skills</a> | 
+  <a href="#projects">Projects</a> | 
+  <a href="#contact">Contact</a>
+
+  <hr>
+<h3 id="about">NAME</h3>
+  <p>My Name is Sakshi Karnani</p>
+
+  <h3 id="about">About Me</h3>
+  <p>Hello! I am a BTech student passionate about coding, web development, and learning new technologies.</p>
+
+  <h3 id="skills">My Skills</h3>
+  <p>HTML
+     CSS,
+    JavaScript,
+    Python,
+    Java,
+     SQL</p>
+
+  <h3 id="projects">Projects</h3>
+  <p>1. Resume Using HTML<br>
+     2. Portfolio Using HTML<br>
+     3. Registration Form Using HTML</p>
+
+  <h3 id="contact">Contact Me</h3>
+  <p>Email: sakshixkarnani@gmail.com<br>
+     Phone: 8299516980<br>
+     LinkedIn: linkedin.com/in/example</p>
+
+</body>
+</html>
